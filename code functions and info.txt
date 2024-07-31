@@ -1,0 +1,47 @@
+                                  Inventory Management System (IMS)
+Project Introduction
+An Inventory Management System (IMS) is crucial for businesses to efficiently manage their stock. This simplified IMS in Java allows users to add new items, update existing items, view inventory details, and handle exceptions effectively.
+Functionalities
+1.	Item Management:
+o	Add new items to the inventory.
+o	Update existing items' information (e.g., quantity, price).
+o	Display details of all items in the inventory.
+2.	Exception Handling:
+o	Handle exceptional scenarios such as invalid input or unavailable items gracefully.
+Project Structure
+1.	Main Class:
+o	Contains the main method to start the program and manage user interactions.
+2.	Item Class:
+o	Represents an item in the inventory, using inheritance and polymorphism.
+3.	Inventory Class:
+o	Manages the inventory of items, including adding, updating, and displaying items.
+4.	Exception Handling Class (Bonus):
+o	Handles various exceptions.
+5.	Utility Classes (Bonus):
+o	Includes additional utility classes for input validation and formatting.
+
+Implementation Guidance
+•	Encapsulation:
+o	The Item class fields (name, quantity, price) are private, accessed through public getters and setters.
+o	The Inventory class manages the list of items privately, with public methods to interact with the inventory.
+•	Inheritance:
+o	The Item class can be extended for different types of items, allowing subclasses to inherit common properties.
+•	Polymorphism:
+o	Overriding methods like displayDetails in subclasses allows for customized behavior.
+•	Abstraction:
+o	The Item class abstracts common properties, while the Inventory class abstracts inventory management complexity.
+•	Association:
+o	The Main class interacts with the Inventory class to manage inventory operations.
+Error Handling and Data Validation
+•	Error Handling:
+o	Implement error handling to manage invalid inputs and other exceptions gracefully.
+o	Use try-catch blocks to handle exceptions such as InputMismatchException, NoSuchElementException, and IllegalArgumentException.
+•	Data Validation:
+o	Validate user inputs and item properties to ensure data integrity and consistency.
+Modular Programming Practices
+•	Modular Code:
+o	Break down functionality into small, reusable methods.
+o	Methods should perform specific tasks, improving code readability and maintainability.
+Conclusion
+Developing this Inventory Management System in Java provides practical experience with object-oriented programming concepts, including inheritance, polymorphism, and exception handling. This foundational project is a step towards mastering Java and developing more complex systems.
+
